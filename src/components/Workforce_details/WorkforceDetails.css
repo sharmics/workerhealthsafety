@@ -1,0 +1,231 @@
+* {
+    font-family: Poppins;
+}
+
+.Workforce-Details-outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120vh;
+    min-height: 700px;
+    color: #303042;
+    padding-bottom: 20px;
+}
+
+.Workforce-Details-routing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 95%;
+    height: 15%;
+    font-size: 14px;
+
+}
+
+.Workforce-selectBox {
+    width: 20%;
+    height: 32%;
+}
+
+.workforce-demo-simple-select {
+    background-color: white;
+}
+
+.Workforce-Details-routing select {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.Workforce-Details-component {
+    width: 95%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Workforce-Details-vital {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Workforce-Details-live {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Workforce-Details-livefeed {
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chngecolor {
+    font-weight: 600;
+}
+
+.workforce-menu-item {
+    font-size: 12px !important;
+
+}
+@media only screen and (max-width: 1025px) {
+    .Workforce-Details-outer {
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .Workforce-Details-routing {
+        height: 10%;
+    }
+
+
+    .Workforce-Details-component {
+        flex-direction: column;
+        height: 90%;        
+    }
+
+    .Workforce-Details-vital {
+        width: 100%;
+        height: 50%;
+    }
+
+    .Workforce-Details-live {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 45%;
+    }
+
+
+    .Workforce-Details-livefeed {
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 853px) {
+    .Workforce-Details-outer {
+        height: 120vh;
+        align-items: center;
+    }
+
+    .Workforce-Details-routing {
+        height: 10%;
+
+    }
+    .Workforce-selectBox {
+        width: 40%;
+    }
+
+    .Workforce-Details-component {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .Workforce-Details-vital {
+        width: 100%;
+        height: 55%;
+    }
+
+    .Workforce-Details-live {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 40%;
+    }
+
+
+    .Workforce-Details-livefeed {
+        height: 100%;
+    }
+
+}
+@media only screen and (max-width: 501px){
+    .Workforce-Details-outer {
+        height: 210vh;
+        align-items: center;
+    }
+
+    .Workforce-Details-routing {
+        height: 10%;
+    }
+    .Workforce-selectBox {
+        width: 40%;
+    }
+
+    .Workforce-Details-component {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .Workforce-Details-vital {
+        width: 100%;
+        height: 42%;
+    }
+
+    .Workforce-Details-live {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 55%;
+    }
+
+
+    .Workforce-Details-livefeed {
+        height: 50%;
+    }
+
+    
+}
+@media only screen and (max-width: 431px){
+    .Workforce-Details-outer {
+        height: 150vh;
+        align-items: center;
+    }
+
+    .Workforce-Details-routing {
+        height: 10%;
+    }
+    .Workforce-selectBox {
+        width: 50%;
+    }
+
+    .Workforce-Details-component {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .Workforce-Details-vital {
+        width: 100%;
+        height: 35%;
+    }
+
+    .Workforce-Details-live {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 60%;
+    }
+
+
+    .Workforce-Details-livefeed {
+        height: 47%;
+    }
+
+    
+}

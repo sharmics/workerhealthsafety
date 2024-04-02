@@ -1,0 +1,650 @@
+[
+  {
+    "zone_id": "63764gfh-478bsd-84756fg",
+    "zone": "Quality Control Zone",
+    "workersCount": 60,
+    "location": "New York",
+    "cctvCount": 45,
+    "activeIncidents": 3,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg2",
+    "zone": "Maintenance Zone",
+    "workersCount": 30,
+    "location": "Houston",
+    "cctvCount": 25,
+    "activeIncidents": 2,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg3",
+    "zone": "Production Zone",
+    "workersCount": 45,
+    "location": "Chicago",
+    "cctvCount": 35,
+    "activeIncidents": 4,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 12",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 13",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 14",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 15",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 16",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg4",
+    "zone": "Employee Welfare Zone",
+    "workersCount": 40,
+    "location": "Houston",
+    "cctvCount": 30,
+    "activeIncidents": 5,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 12",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 13",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 14",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg5",
+    "zone": "Production Zone",
+    "workersCount": 55,
+    "location": "Phoenix",
+    "cctvCount": 40,
+    "activeIncidents": 2,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg6",
+    "zone": "Storage Zone",
+    "workersCount": 35,
+    "location": "Austin",
+    "cctvCount": 30,
+    "activeIncidents": 3,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg4",
+    "zone": "Employee Welfare Zone",
+    "workersCount": 40,
+    "location": "Houston",
+    "cctvCount": 30,
+    "activeIncidents": 5,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg8",
+    "zone": "Security Zone",
+    "workersCount": 50,
+    "location": "Chicago",
+    "cctvCount": 35,
+    "activeIncidents": 2,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 12",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg9",
+    "zone": "Logistics Zone",
+    "workersCount": 60,
+    "location": "Miami",
+    "cctvCount": 40,
+    "activeIncidents": 3,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg10",
+    "zone": "Quality Control Zone",
+    "workersCount": 40,
+    "location": "Atlanta",
+    "cctvCount": 30,
+    "activeIncidents": 4,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg11",
+    "zone": "Quality Control Zone",
+    "workersCount": 30,
+    "location": "Seattle",
+    "cctvCount": 25,
+    "activeIncidents": 1,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 11",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 12",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  },
+  {
+    "zone_id": "63764gfh-478bsd-84756fg12",
+    "zone": "Maintenance Zone",
+    "workersCount": 45,
+    "location": "Denver",
+    "cctvCount": 35,
+    "activeIncidents": 2,
+    "live_cctv": [
+      {
+        "cam_name": "Camera 1",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 2",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 3",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 4",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 5",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 6",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 7",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 8",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      },
+      {
+        "cam_name": "Camera 9",
+        "cam_stream_url": "/Videos/ZoneCCTVOne.mp4"
+      },
+      {
+        "cam_name": "Camera 10",
+        "cam_stream_url": "/Videos/ZoneCCTVTwo.mp4"
+      }
+    ]
+  }
+]

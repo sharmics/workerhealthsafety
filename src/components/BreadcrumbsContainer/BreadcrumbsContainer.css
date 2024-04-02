@@ -1,0 +1,18 @@
+.bread-crumbs-cnt {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.bread-crumbs-path {
+    display: flex;
+    gap: 3px;
+
+    span {
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

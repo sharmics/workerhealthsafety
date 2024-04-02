@@ -1,0 +1,26 @@
+.Live-cctv-BackIcon {
+    position: absolute;
+    left: 7px;
+    top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+    font-weight: 600;
+    font-size: 14px;
+    color: #303042;
+    cursor: pointer;
+
+}
+
+.Multiple-LiveCCTV-Outer {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}

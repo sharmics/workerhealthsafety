@@ -1,0 +1,149 @@
+.all-updates-card-cnt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
+}
+.all-updates-card-title {
+    width: calc(100% - 70px);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 35px;
+    border-radius: 10px;
+    border-bottom: 1px solid #C7C7C7;
+    
+    span {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }   
+}
+.all-updates-details-cnt {
+    width: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    gap: 10px;
+}
+.feed-update-cnt {
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    border-radius: 8px;
+    background: #F5F5F5;
+}
+.update-owner-date-time-cnt {
+    height: 24px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.update-profile-owner-cnt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.update-cnt-owner-profile {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+.update-date-time-cnt {
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    img {
+        margin-left: 7px;
+    }
+}
+.feed-update-metadata-cnt {
+    width: calc(100% - 34px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    margin-left: 34px;
+}
+.update-case-comment-cnt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.update-case-comment-icon-cnt {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.update-case-text {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #263438;
+}
+.update-comment-text {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.update-metadata-row {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.update-metadata-label {
+    width: 11%;
+    display: flex;
+    span {
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.update-metadata-label-val {
+    display: flex;
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

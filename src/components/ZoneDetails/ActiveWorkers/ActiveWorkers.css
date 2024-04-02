@@ -1,0 +1,82 @@
+* {
+    font-family: Poppins;
+}
+
+.ActiveWorkers-outer {
+    width: 275px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ActiveWorkers-head {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: #303042;
+    font-size: 16px;
+    border-radius:10px 10px 2px 2px;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+    border: 1px solid rgb(246, 243, 243);
+    box-shadow: 0px 5px 10px rgba(188, 186, 186, 0.3);
+
+}
+
+.ActiveWorkers-head span {
+    width: 88%;
+    margin-left: 6%;
+}
+
+.ActiveWorkers-head div {
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    margin-right: 30%;
+    background-color: #0072bc;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.ActiveWorkers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #f8f8f8;
+
+}
+
+.ActiveWorker-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.ActiveWorker-data img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.ActiveWorker-data1 {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

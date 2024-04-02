@@ -1,0 +1,45 @@
+.dashboard-main-cnt {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    background: #F3F5FF;
+}
+.dashboard-info-doughnut-chart-card-cnt {
+    width: 45.3%;
+}
+.dashboard-info-bar-chart-card-cnt {
+    width: 45.3%;
+}
+.dashboard-info-card-cnt {
+    width: 21%;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .dashboard-info-doughnut-chart-card-cnt {
+        width: 80%;
+        min-width: 220px;
+        height: fit-content !important;
+    }
+    .dashboard-info-bar-chart-card-cnt {
+        width: 80%;
+        min-width: 220px;
+        height: fit-content !important;
+    }
+    .dashboard-info-card-cnt {
+        width: 80%;
+        min-width: 220px;
+        height: fit-content !important;
+    }
+}
+@media only screen and (min-width : 601px) and (max-width : 999px) {
+    .dashboard-info-doughnut-chart-card-cnt {
+        width: 89%;
+    }
+    .dashboard-info-bar-chart-card-cnt {
+        width: 89%;
+    }
+    .dashboard-info-card-cnt {
+        width: 42%;
+    }    
+}

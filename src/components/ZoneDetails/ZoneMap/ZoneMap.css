@@ -1,0 +1,124 @@
+.ZoneMap-outer {
+   width: 100%;
+   height: 85vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f3f5ff;
+}
+
+.ZoneMap-live {
+   width: 70%;
+   height: 80%;
+}
+
+.ZoneMap-live img {
+   border-radius: 5px;
+}
+
+.ZoneMap-BackIcon {
+   position: absolute;
+   left: 30px;
+   top: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 6%;
+   font-weight: 600;
+   font-size: 14px;
+   color: #303042;
+   cursor: pointer;
+}
+
+/* css for small screen  */
+
+.ZoneMap-outer2 {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+}
+
+.ZoneMap-Large {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   font-size: 16px;
+   border-radius: 10px 10px 2px 2px;
+   font-weight: 600;
+   height: 15%;
+   background-color: white;
+   border: 1px solid rgb(246, 243, 243);
+   box-shadow: 0px 5px 10px rgba(188, 186, 186, 0.3);
+}
+
+.ZoneMap-live2 {
+   width: 100%;
+   height: 85%;
+}
+
+.zone-title-select {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 50%;
+   height: 80%;
+}
+
+.zone-title-select div {
+   height: 100%;
+   width: 30%;
+   display: flex;
+   align-items: center;
+   margin-left: 15px;
+
+}
+
+.zone-title-select select {
+   width: 60%;
+   height: 70%;
+
+}
+
+@media only screen and (max-width: 1025px) {
+   .zone-title-select {
+      width: 55%;
+   }
+
+   .zone-title-select select {
+      width: 55%;
+      height: 65%;
+
+   }
+}
+
+@media only screen and (max-width: 431px) {
+   .zone-title-select {
+      width: 75%;
+   }
+
+   .zone-title-select select {
+      width: 55%;
+      height: 65%;
+
+   }
+}
+
+@media only screen and (max-width: 281px) {
+
+   .zone-title-select div {
+      width: 50%;
+   }
+
+   .zone-title-select select {
+      width: 50%;
+      height: 48%;
+      font-size: 8px;
+   }
+}

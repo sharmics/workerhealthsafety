@@ -1,0 +1,20 @@
+[
+    {
+        "user_id": "assfagaga_agagag_agagagagdff4655",
+        "first_name": "Admin",
+        "last_name": "admin",
+        "role": "admin",
+        "profile_img": "https://img.lovepik.com/element/45001/3052.png_860.png",
+        "email": "admin@bl.com",
+        "password": "Admin@123"
+    },
+    {
+        "user_id": "assfagaga_agagag_agagagagdff4656",
+        "first_name": "Chandra",
+        "last_name": "Prasad",
+        "role": "user",
+        "profile_img": "https://img.lovepik.com/element/45001/3052.png_860.png",
+        "email": "user@bl.com",
+        "password": "user123"
+    }
+]

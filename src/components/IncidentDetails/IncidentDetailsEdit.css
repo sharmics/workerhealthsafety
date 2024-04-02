@@ -1,0 +1,164 @@
+.edit-board {
+  background-color: #f3f5ff;
+  width: 98.9vw;
+  /* height: 99vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.edit-container {
+  padding-top: 1em;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6em;
+}
+
+.incident-routing-text {
+  width: 100%;
+}
+
+.edit-box {
+  background-color: white;
+  border: 1.5px solid #b4b4b5;
+  width: 85%;
+  margin-top: 2em;
+  border-radius: 10px;
+  padding-bottom: 2em;
+}
+
+.edit-box-head {
+  background-color: #0072bc;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+}
+
+.edit-box-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+
+.field-box {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  padding-top: 0.5em;
+  margin-top: 1em;
+}
+
+.field-label {
+  width: 18%;
+  padding-left: 8%;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.field-input {
+  width: 99%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.submit-button-div {
+  height: 3em;
+  margin-top: 3em;
+  width: 20%;
+  margin-left: 73%;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 0.4em !important;
+}
+
+.css-14k8dk8-MuiFormControl-root-MuiTextField-root {
+  padding-left: 0 !important;
+  border: none !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 100%;
+  width: 100%;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.priority-box {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  padding-left: 4%;
+}
+
+.priority-textfield {
+  margin-left: 24%;
+  width: 48%;
+  height: 2.5em;
+  display: flex;
+}
+
+@media only screen and (max-width: 990px) {
+  .edit-box {
+    background-color: white;
+    border: 1.5px solid #b4b4b5;
+    width: 99%;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding-bottom: 2em;
+  }
+
+  .edit-container {
+    padding-top: 1em;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #priorityAndStatusBox {
+    flex-direction: column;
+  }
+
+  .priority-box {
+    width: 96%;
+  }
+
+  #status-box {
+    margin-top: 1em;
+  }
+
+  #priority-label {
+    width: 10%;
+    padding-left: 4%;
+  }
+
+  #priority-input {
+    width: 77%;
+    margin-left: 10%;
+  }
+
+  #status-label {
+    width: 10%;
+    padding-left: 4%;
+  }
+
+  #status-input {
+    width: 77%;
+    margin-left: 10%;
+  }
+}

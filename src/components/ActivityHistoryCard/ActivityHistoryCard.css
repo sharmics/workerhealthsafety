@@ -1,0 +1,159 @@
+.activity-history-card-cnt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
+}
+.activity-history-card-title {
+    width: calc(100% - 30px);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #C7C7C7;
+    
+    span {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-header-cnt {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #C7C7C787;
+    border-bottom: 1px solid #C7C7C7;
+}
+.activity-history-table-sub-col {
+    height: 31px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-name-col {
+    height: 31px;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-task-col {
+    height: 31px;
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-date-col {
+    height: 31px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-row-cnt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.activity-history-table-sub-val {
+    width: calc(25% - 42px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 21px;
+
+    span {
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0072BC;
+    }
+}
+.activity-history-table-name-val {
+    width: calc(27% - 116px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 58px;
+    overflow: hidden;
+
+    span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+.activity-history-table-task-val {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.activity-history-table-date-val {
+    width: calc(35% - 212px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 56px 0px 156px;
+
+    span {
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

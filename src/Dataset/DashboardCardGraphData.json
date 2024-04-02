@@ -1,0 +1,323 @@
+[
+    {
+        "title": "Days without incidents",
+        "subtitle": "",
+        "count": "01",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": [],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {}
+        }
+    },
+    {
+        "title": "Due tasks",
+        "subtitle": "by due date",
+        "count": "",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": [],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {}
+        }
+    },
+    {
+        "title": "My location",
+        "subtitle": "",
+        "count": "",
+        "location": [{"location": "Almira bakery", "type": "company", "status": "Active"}],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": [],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {}
+        } 
+    },
+    {
+        "title": "Over due tasks",
+        "subtitle": "by over due date",
+        "count": "",
+        "location": [],
+        "dueTask": ["Update risk assessment because of near miss 00-1"],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": [],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {}
+        } 
+    },
+    {
+        "title": "Quick links",
+        "subtitle": "",
+        "count": "",
+        "location": [],
+        "dueTask": [],
+        "links": [
+            {"title": "Zones", "path": "/dashboard/zones"},
+            {"title": "Workforce", "path": "/dashboard/workforce"},
+            {"title": "Incidents", "path": "/dashboard/incidents"}
+            
+        ],
+        "incidentsDetails": [],
+        "filterOptions" : [],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {}
+        } 
+    },
+    {
+        "title": "Recent incidents",
+        "subtitle": "by last changed date",
+        "count": "",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [{"incident": "Employee slipped into a tank with soap", "count": "276", "time": "2h", "status": "new"}, {"incident": "Slipped on chocolate icing", "count": "300", "time": "1d", "status": "In Process"}], 
+        "filterOptions": ["Near Miss", "Option 1", "option 2"],
+        "graph": {
+            "type": "",
+            "title": "",
+            "data": {},
+            "selector": ""
+        }
+    },
+    {
+        "title": "Active incident over time",
+        "subtitle": "By Incident Date And Category",
+        "count": "",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [], 
+        "filterOptions": ["All Category", "Completed", "In process", "New", "Old"],
+        "graph": {
+            "type": "progress",
+            "title": "",
+            "data": [
+                {
+                    "category": "All Category",
+                    "data": [
+                        {"name": "Mon", "progress": 70},
+                        {"name": "Tue", "progress": 50},
+                        {"name": "Wed", "progress": 80},
+                        {"name": "Thu", "progress": 30},
+                        {"name": "Fri", "progress": 90},
+                        {"name": "Sat", "progress": 30},
+                        {"name": "Sun", "progress": 20}
+                    ]
+                },
+                {
+                    "category": "Completed",
+                    "data": [
+                        {"name": "Mon", "progress": 30},
+                        {"name": "Tue", "progress": 40},
+                        {"name": "Wed", "progress": 90},
+                        {"name": "Thu", "progress": 50},
+                        {"name": "Fri", "progress": 60},
+                        {"name": "Sat", "progress": 50},
+                        {"name": "Sun", "progress": 10}
+                    ]
+                },
+                {
+                    "category": "In process",
+                    "data": [
+                        {"name": "Mon", "progress": 90},
+                        {"name": "Tue", "progress": 20},
+                        {"name": "Wed", "progress": 30},
+                        {"name": "Thu", "progress": 80},
+                        {"name": "Fri", "progress": 40},
+                        {"name": "Sat", "progress": 60},
+                        {"name": "Sun", "progress": 50}
+                    ]
+                },
+                {
+                    "category": "New",
+                    "data": [
+                        {"name": "Mon", "progress": 40},
+                        {"name": "Tue", "progress": 20},
+                        {"name": "Wed", "progress": 70},
+                        {"name": "Thu", "progress": 60},
+                        {"name": "Fri", "progress": 30},
+                        {"name": "Sat", "progress": 40},
+                        {"name": "Sun", "progress": 70}
+                    ]
+                },
+                {
+                    "category": "Old",
+                    "data": [
+                        {"name": "Mon", "progress": 60},
+                        {"name": "Tue", "progress": 90},
+                        {"name": "Wed", "progress": 60},
+                        {"name": "Thu", "progress": 20},
+                        {"name": "Fri", "progress": 60},
+                        {"name": "Sat", "progress": 50},
+                        {"name": "Sun", "progress": 40}
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "title": "Active Incidents overview",
+        "subtitle": "Total",
+        "count": "04",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": ["By Category", "By Status", "By Priority"],
+        "graph": {
+            "type": "doughnut",
+            "title": "Number of incidents",
+            "data": [{
+                "name": "Incidents",
+                "colorByPoint": true,
+                "data": [
+                    {
+                        "category": "By Category",
+                        "data": [
+                            {"name": "New Miss", "y": 61.41, "color": "#4B47FF"}, 
+                            {"name": "Safety", "y": 11.84, "color": "#25428A"},
+                            {"name": "Incidents", "y": 10.85, "color": "#ACC3FF"}
+                        ]
+                    },
+                    {
+                        "category": "By Status",
+                        "data": [
+                            {"name": "New", "y": 30, "color": "#4B47FF"}, 
+                            {"name": "Old", "y": 50, "color": "#25428A"},
+                            {"name": "In Process", "y": 20, "color": "#ACC3FF"}
+                        ]
+                    },
+                    {
+                        "category": "By Priority",
+                        "data": [
+                            {"name": "High", "y": 20, "color": "#4B47FF"}, 
+                            {"name": "Medium", "y": 10, "color": "#25428A"},
+                            {"name": "Low", "y": 70, "color": "#ACC3FF"}
+                        ]
+                    }
+                ]
+            }]
+        }
+    },
+    {
+        "title": "Active task overview",
+        "subtitle": "by status",
+        "count": "01",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions": ["By Category", "Completed", "Pending"],
+        "graph": {
+            "type": "doughnut",
+            "title": "Number of Tasks",
+            "data": [{
+                "name": "Tasks",
+                "colorByPoint": true,
+                "data": [
+                    {
+                        "category": "By Category",
+                        "data": [ 
+                            {"name": "overdue", "y": 100, "color": "#ACC3FF"}
+                        ]
+                    },
+                    {
+                        "category": "Completed",
+                        "data": [ 
+                            {"name": "service", "y": 30, "color": "#ACC3FF"},
+                            {"name": "cleaning", "y": 50, "color": "#4B47FF"},
+                            {"name": "operation", "y": 20, "color": "#25428A"}
+                        ]
+                    },
+                    {
+                        "category": "Pending",
+                        "data": [ 
+                            {"name": "service", "y": 50, "color": "#ACC3FF"},
+                            {"name": "cleaning", "y": 10, "color": "#4B47FF"},
+                            {"name": "operation", "y": 40, "color": "#25428A"}
+                        ]
+                    }
+                ]
+            }]
+        }
+    },
+    {
+        "title": "Active incidents status distribution",
+        "subtitle": "By Incident Date And Status",
+        "count": "04",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [],
+        "filterOptions" : ["All Category", "By Category", "By Status"], 
+        "graph": {
+            "type": "bar",
+            "title": "Number of Incident",
+            "data": [{
+                "name": "Incident",
+                "data": [
+                    {
+                        "y": 50,
+                        "color": "#0263FF" 
+                    },
+                    {},
+                    {
+                        "y": 70,
+                        "color": "#FF7723"
+                    } 
+                ]
+            }],
+            "indexAxis": "y",
+            "categories": ["New","", "In Process"] 
+        }
+    },
+    {
+        "title": "Active task status distribution",
+        "subtitle": "By Due Date And Status",
+        "count": "04",
+        "location": [],
+        "dueTask": [],
+        "links": [],
+        "incidentsDetails": [], 
+        "filterOptions": [], 
+        "graph": {
+            "type": "column",
+            "title": "Number of Tasks",
+            "data": [{
+                "name": "Tasks",
+                "data": [
+                    {
+                        "y": 40,
+                        "color": "#0263FF" 
+                    },
+                    {
+                        "y": 80,
+                        "color": "#FF7723"
+                    },
+                    {
+                        "y": 60,
+                        "color": "#8E30FF"
+                    } 
+                ]
+            }],
+            "indexAxis": "x",
+            "categories": ["","", ""]
+        }
+    }
+]

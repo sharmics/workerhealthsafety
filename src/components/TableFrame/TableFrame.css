@@ -1,0 +1,259 @@
+.container {
+    /* margin: 10px 10px 10px 10px; */
+    padding-top: 2%;
+    padding-left: 4%;
+    width: 93%;
+    background-color: #F3F5FF;
+}
+
+.search {
+    width: 370px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 12px;
+    background: white;
+    border: 1px solid #d3d3d3;
+}
+
+.search-input {
+    width: 370px;
+    font-size: 14px;
+    font-family: poppins !important;
+    color: #303042;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search-icon {
+    color: #7f7f7f;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center,
+}
+
+.pagination-icon {
+    height: 0.75em !important;
+    color: #7f7f7f;
+    cursor: pointer;
+    padding-bottom: 0.1em;
+    width: 2em;
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: normal;
+}
+
+.pagination-icon :hover {
+    color: #0072bc;
+    font-weight: bold !important;
+    font-size: 48px !important;
+    cursor: pointer;
+}
+
+.ant-table-thead .ant-table-cell {
+    font-size: 13px;
+    color: white !important;
+    background: #0072bc 0% 0% no-repeat padding-box !important;
+    font-family: Poppins !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:last-child {
+    text-align: center;
+}
+
+.ant-table-column-title {
+    text-align: center;
+}
+
+.ant-table-column-sorter-inner {
+    color: white;
+}
+
+.ant-table-tbody .ant-table-cell {
+    height: 10% !important;
+    /* Set the desired height */
+    text-align: center;
+    font-family: Poppins !important;
+}
+
+.trackingbutton {
+    background-color: #d3d3d3;
+    color: #303042;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins !important;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile-pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    background-color: whitesmoke;
+    box-shadow: 24;
+    border-radius: 10px;
+    outline: 0;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0072bc;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-family: Poppins !important;
+    height: 50px;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 8%;
+}
+
+.profile-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    font-family: Poppins !important;
+    font-weight: 200;
+}
+
+.table-fields {
+    display: flex;
+    margin-top: .9em;
+    width: 45%;
+    height: 2em;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.field-value {
+    width: 35%;
+    font-family: poppins;
+    font-size: 0.85em;
+}
+
+.profile-description {
+    border: 1px solid lightgray;
+    padding: 0px 10px 0px 10px;
+    margin-top: 35px;
+    border-radius: 5px;
+    font-size: 0.85em;
+}
+
+.ant-dropdown-trigger {
+    width: 2em;
+    height: 2em;
+}
+
+.anticon svg {
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+    .ant-table td:nth-child(2),
+    .ant-table th:nth-child(2) {
+        display: none;
+        /* Hide first column on small screens (phones) */
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 276px) {
+    .container {
+        width: 100%;
+    }
+
+    .search {
+        width: 50px;
+        height: 15px;
+    }
+    
+    .search-input {
+        width: 50x;
+        font-size: 10px;
+    }
+
+    .search-icon {
+        color: #7f7f7f;
+    }
+
+    .pagination{
+        display: flex;
+        font-size: small;
+    }
+}
+
+@media (max-width: 476px) {
+    .container {
+        width: 100%;
+    }
+
+    .search {
+        width: 200px;
+        height: 15px;
+    }
+    
+    .search-input {
+        width: 188px;
+        font-size: 10px;
+    }
+
+    .search-icon {
+        color: #7f7f7f;
+    }
+
+    .pagination{
+        display: flex;
+        font-size: small;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .search {
+        width: 30%;
+        height: 15px;
+    }
+    
+    .search-input {
+        width: 220px;
+        font-size: 12px;
+    }
+
+    .pagination-icon {
+        font-size: 1.5em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
